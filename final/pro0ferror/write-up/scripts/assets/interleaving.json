@@ -1,0 +1,1362 @@
+{
+    "1": {
+        "L": {
+            "datacodewords": 19,
+            "errorcodewords": 7,
+            "blocksg1": 1,
+            "datacodewordsperblockg1": 19,
+            "blocksg2": null,
+            "datacodewordsperblockg2": null
+        },
+        "M": {
+            "datacodewords": 16,
+            "errorcodewords": 10,
+            "blocksg1": 1,
+            "datacodewordsperblockg1": 16,
+            "blocksg2": null,
+            "datacodewordsperblockg2": null
+        },
+        "Q": {
+            "datacodewords": 13,
+            "errorcodewords": 13,
+            "blocksg1": 1,
+            "datacodewordsperblockg1": 13,
+            "blocksg2": null,
+            "datacodewordsperblockg2": null
+        },
+        "H": {
+            "datacodewords": 9,
+            "errorcodewords": 17,
+            "blocksg1": 1,
+            "datacodewordsperblockg1": 9,
+            "blocksg2": null,
+            "datacodewordsperblockg2": null
+        }
+    },
+    "2": {
+        "L": {
+            "datacodewords": 34,
+            "errorcodewords": 10,
+            "blocksg1": 1,
+            "datacodewordsperblockg1": 34,
+            "blocksg2": null,
+            "datacodewordsperblockg2": null
+        },
+        "M": {
+            "datacodewords": 28,
+            "errorcodewords": 16,
+            "blocksg1": 1,
+            "datacodewordsperblockg1": 28,
+            "blocksg2": null,
+            "datacodewordsperblockg2": null
+        },
+        "Q": {
+            "datacodewords": 22,
+            "errorcodewords": 22,
+            "blocksg1": 1,
+            "datacodewordsperblockg1": 22,
+            "blocksg2": null,
+            "datacodewordsperblockg2": null
+        },
+        "H": {
+            "datacodewords": 16,
+            "errorcodewords": 28,
+            "blocksg1": 1,
+            "datacodewordsperblockg1": 16,
+            "blocksg2": null,
+            "datacodewordsperblockg2": null
+        }
+    },
+    "3": {
+        "L": {
+            "datacodewords": 55,
+            "errorcodewords": 15,
+            "blocksg1": 1,
+            "datacodewordsperblockg1": 55,
+            "blocksg2": null,
+            "datacodewordsperblockg2": null
+        },
+        "M": {
+            "datacodewords": 44,
+            "errorcodewords": 26,
+            "blocksg1": 1,
+            "datacodewordsperblockg1": 44,
+            "blocksg2": null,
+            "datacodewordsperblockg2": null
+        },
+        "Q": {
+            "datacodewords": 34,
+            "errorcodewords": 18,
+            "blocksg1": 2,
+            "datacodewordsperblockg1": 17,
+            "blocksg2": null,
+            "datacodewordsperblockg2": null
+        },
+        "H": {
+            "datacodewords": 26,
+            "errorcodewords": 22,
+            "blocksg1": 2,
+            "datacodewordsperblockg1": 13,
+            "blocksg2": null,
+            "datacodewordsperblockg2": null
+        }
+    },
+    "4": {
+        "L": {
+            "datacodewords": 80,
+            "errorcodewords": 20,
+            "blocksg1": 1,
+            "datacodewordsperblockg1": 80,
+            "blocksg2": null,
+            "datacodewordsperblockg2": null
+        },
+        "M": {
+            "datacodewords": 64,
+            "errorcodewords": 18,
+            "blocksg1": 2,
+            "datacodewordsperblockg1": 32,
+            "blocksg2": null,
+            "datacodewordsperblockg2": null
+        },
+        "Q": {
+            "datacodewords": 48,
+            "errorcodewords": 26,
+            "blocksg1": 2,
+            "datacodewordsperblockg1": 24,
+            "blocksg2": null,
+            "datacodewordsperblockg2": null
+        },
+        "H": {
+            "datacodewords": 36,
+            "errorcodewords": 16,
+            "blocksg1": 4,
+            "datacodewordsperblockg1": 9,
+            "blocksg2": null,
+            "datacodewordsperblockg2": null
+        }
+    },
+    "5": {
+        "L": {
+            "datacodewords": 108,
+            "errorcodewords": 26,
+            "blocksg1": 1,
+            "datacodewordsperblockg1": 108,
+            "blocksg2": null,
+            "datacodewordsperblockg2": null
+        },
+        "M": {
+            "datacodewords": 86,
+            "errorcodewords": 24,
+            "blocksg1": 2,
+            "datacodewordsperblockg1": 43,
+            "blocksg2": null,
+            "datacodewordsperblockg2": null
+        },
+        "Q": {
+            "datacodewords": 62,
+            "errorcodewords": 18,
+            "blocksg1": 2,
+            "datacodewordsperblockg1": 15,
+            "blocksg2": 2,
+            "datacodewordsperblockg2": 16
+        },
+        "H": {
+            "datacodewords": 46,
+            "errorcodewords": 22,
+            "blocksg1": 2,
+            "datacodewordsperblockg1": 11,
+            "blocksg2": 2,
+            "datacodewordsperblockg2": 12
+        }
+    },
+    "6": {
+        "L": {
+            "datacodewords": 136,
+            "errorcodewords": 18,
+            "blocksg1": 2,
+            "datacodewordsperblockg1": 68,
+            "blocksg2": null,
+            "datacodewordsperblockg2": null
+        },
+        "M": {
+            "datacodewords": 108,
+            "errorcodewords": 16,
+            "blocksg1": 4,
+            "datacodewordsperblockg1": 27,
+            "blocksg2": null,
+            "datacodewordsperblockg2": null
+        },
+        "Q": {
+            "datacodewords": 76,
+            "errorcodewords": 24,
+            "blocksg1": 4,
+            "datacodewordsperblockg1": 19,
+            "blocksg2": null,
+            "datacodewordsperblockg2": null
+        },
+        "H": {
+            "datacodewords": 60,
+            "errorcodewords": 28,
+            "blocksg1": 4,
+            "datacodewordsperblockg1": 15,
+            "blocksg2": null,
+            "datacodewordsperblockg2": null
+        }
+    },
+    "7": {
+        "L": {
+            "datacodewords": 156,
+            "errorcodewords": 20,
+            "blocksg1": 2,
+            "datacodewordsperblockg1": 78,
+            "blocksg2": null,
+            "datacodewordsperblockg2": null
+        },
+        "M": {
+            "datacodewords": 124,
+            "errorcodewords": 18,
+            "blocksg1": 4,
+            "datacodewordsperblockg1": 31,
+            "blocksg2": null,
+            "datacodewordsperblockg2": null
+        },
+        "Q": {
+            "datacodewords": 88,
+            "errorcodewords": 18,
+            "blocksg1": 2,
+            "datacodewordsperblockg1": 14,
+            "blocksg2": 4,
+            "datacodewordsperblockg2": 15
+        },
+        "H": {
+            "datacodewords": 66,
+            "errorcodewords": 26,
+            "blocksg1": 4,
+            "datacodewordsperblockg1": 13,
+            "blocksg2": 1,
+            "datacodewordsperblockg2": 14
+        }
+    },
+    "8": {
+        "L": {
+            "datacodewords": 194,
+            "errorcodewords": 24,
+            "blocksg1": 2,
+            "datacodewordsperblockg1": 97,
+            "blocksg2": null,
+            "datacodewordsperblockg2": null
+        },
+        "M": {
+            "datacodewords": 154,
+            "errorcodewords": 22,
+            "blocksg1": 2,
+            "datacodewordsperblockg1": 38,
+            "blocksg2": 2,
+            "datacodewordsperblockg2": 39
+        },
+        "Q": {
+            "datacodewords": 110,
+            "errorcodewords": 22,
+            "blocksg1": 4,
+            "datacodewordsperblockg1": 18,
+            "blocksg2": 2,
+            "datacodewordsperblockg2": 19
+        },
+        "H": {
+            "datacodewords": 86,
+            "errorcodewords": 26,
+            "blocksg1": 4,
+            "datacodewordsperblockg1": 14,
+            "blocksg2": 2,
+            "datacodewordsperblockg2": 15
+        }
+    },
+    "9": {
+        "L": {
+            "datacodewords": 232,
+            "errorcodewords": 30,
+            "blocksg1": 2,
+            "datacodewordsperblockg1": 116,
+            "blocksg2": null,
+            "datacodewordsperblockg2": null
+        },
+        "M": {
+            "datacodewords": 182,
+            "errorcodewords": 22,
+            "blocksg1": 3,
+            "datacodewordsperblockg1": 36,
+            "blocksg2": 2,
+            "datacodewordsperblockg2": 37
+        },
+        "Q": {
+            "datacodewords": 132,
+            "errorcodewords": 20,
+            "blocksg1": 4,
+            "datacodewordsperblockg1": 16,
+            "blocksg2": 4,
+            "datacodewordsperblockg2": 17
+        },
+        "H": {
+            "datacodewords": 100,
+            "errorcodewords": 24,
+            "blocksg1": 4,
+            "datacodewordsperblockg1": 12,
+            "blocksg2": 4,
+            "datacodewordsperblockg2": 13
+        }
+    },
+    "10": {
+        "L": {
+            "datacodewords": 274,
+            "errorcodewords": 18,
+            "blocksg1": 2,
+            "datacodewordsperblockg1": 68,
+            "blocksg2": 2,
+            "datacodewordsperblockg2": 69
+        },
+        "M": {
+            "datacodewords": 216,
+            "errorcodewords": 26,
+            "blocksg1": 4,
+            "datacodewordsperblockg1": 43,
+            "blocksg2": 1,
+            "datacodewordsperblockg2": 44
+        },
+        "Q": {
+            "datacodewords": 154,
+            "errorcodewords": 24,
+            "blocksg1": 6,
+            "datacodewordsperblockg1": 19,
+            "blocksg2": 2,
+            "datacodewordsperblockg2": 20
+        },
+        "H": {
+            "datacodewords": 122,
+            "errorcodewords": 28,
+            "blocksg1": 6,
+            "datacodewordsperblockg1": 15,
+            "blocksg2": 2,
+            "datacodewordsperblockg2": 16
+        }
+    },
+    "11": {
+        "L": {
+            "datacodewords": 324,
+            "errorcodewords": 20,
+            "blocksg1": 4,
+            "datacodewordsperblockg1": 81,
+            "blocksg2": null,
+            "datacodewordsperblockg2": null
+        },
+        "M": {
+            "datacodewords": 254,
+            "errorcodewords": 30,
+            "blocksg1": 1,
+            "datacodewordsperblockg1": 50,
+            "blocksg2": 4,
+            "datacodewordsperblockg2": 51
+        },
+        "Q": {
+            "datacodewords": 180,
+            "errorcodewords": 28,
+            "blocksg1": 4,
+            "datacodewordsperblockg1": 22,
+            "blocksg2": 4,
+            "datacodewordsperblockg2": 23
+        },
+        "H": {
+            "datacodewords": 140,
+            "errorcodewords": 24,
+            "blocksg1": 3,
+            "datacodewordsperblockg1": 12,
+            "blocksg2": 8,
+            "datacodewordsperblockg2": 13
+        }
+    },
+    "12": {
+        "L": {
+            "datacodewords": 370,
+            "errorcodewords": 24,
+            "blocksg1": 2,
+            "datacodewordsperblockg1": 92,
+            "blocksg2": 2,
+            "datacodewordsperblockg2": 93
+        },
+        "M": {
+            "datacodewords": 290,
+            "errorcodewords": 22,
+            "blocksg1": 6,
+            "datacodewordsperblockg1": 36,
+            "blocksg2": 2,
+            "datacodewordsperblockg2": 37
+        },
+        "Q": {
+            "datacodewords": 206,
+            "errorcodewords": 26,
+            "blocksg1": 4,
+            "datacodewordsperblockg1": 20,
+            "blocksg2": 6,
+            "datacodewordsperblockg2": 21
+        },
+        "H": {
+            "datacodewords": 158,
+            "errorcodewords": 28,
+            "blocksg1": 7,
+            "datacodewordsperblockg1": 14,
+            "blocksg2": 4,
+            "datacodewordsperblockg2": 15
+        }
+    },
+    "13": {
+        "L": {
+            "datacodewords": 428,
+            "errorcodewords": 26,
+            "blocksg1": 4,
+            "datacodewordsperblockg1": 107,
+            "blocksg2": null,
+            "datacodewordsperblockg2": null
+        },
+        "M": {
+            "datacodewords": 334,
+            "errorcodewords": 22,
+            "blocksg1": 8,
+            "datacodewordsperblockg1": 37,
+            "blocksg2": 1,
+            "datacodewordsperblockg2": 38
+        },
+        "Q": {
+            "datacodewords": 244,
+            "errorcodewords": 24,
+            "blocksg1": 8,
+            "datacodewordsperblockg1": 20,
+            "blocksg2": 4,
+            "datacodewordsperblockg2": 21
+        },
+        "H": {
+            "datacodewords": 180,
+            "errorcodewords": 22,
+            "blocksg1": 12,
+            "datacodewordsperblockg1": 11,
+            "blocksg2": 4,
+            "datacodewordsperblockg2": 12
+        }
+    },
+    "14": {
+        "L": {
+            "datacodewords": 461,
+            "errorcodewords": 30,
+            "blocksg1": 3,
+            "datacodewordsperblockg1": 115,
+            "blocksg2": 1,
+            "datacodewordsperblockg2": 116
+        },
+        "M": {
+            "datacodewords": 365,
+            "errorcodewords": 24,
+            "blocksg1": 4,
+            "datacodewordsperblockg1": 40,
+            "blocksg2": 5,
+            "datacodewordsperblockg2": 41
+        },
+        "Q": {
+            "datacodewords": 261,
+            "errorcodewords": 20,
+            "blocksg1": 11,
+            "datacodewordsperblockg1": 16,
+            "blocksg2": 5,
+            "datacodewordsperblockg2": 17
+        },
+        "H": {
+            "datacodewords": 197,
+            "errorcodewords": 24,
+            "blocksg1": 11,
+            "datacodewordsperblockg1": 12,
+            "blocksg2": 5,
+            "datacodewordsperblockg2": 13
+        }
+    },
+    "15": {
+        "L": {
+            "datacodewords": 523,
+            "errorcodewords": 22,
+            "blocksg1": 5,
+            "datacodewordsperblockg1": 87,
+            "blocksg2": 1,
+            "datacodewordsperblockg2": 88
+        },
+        "M": {
+            "datacodewords": 415,
+            "errorcodewords": 24,
+            "blocksg1": 5,
+            "datacodewordsperblockg1": 41,
+            "blocksg2": 5,
+            "datacodewordsperblockg2": 42
+        },
+        "Q": {
+            "datacodewords": 295,
+            "errorcodewords": 30,
+            "blocksg1": 5,
+            "datacodewordsperblockg1": 24,
+            "blocksg2": 7,
+            "datacodewordsperblockg2": 25
+        },
+        "H": {
+            "datacodewords": 223,
+            "errorcodewords": 24,
+            "blocksg1": 11,
+            "datacodewordsperblockg1": 12,
+            "blocksg2": 7,
+            "datacodewordsperblockg2": 13
+        }
+    },
+    "16": {
+        "L": {
+            "datacodewords": 589,
+            "errorcodewords": 24,
+            "blocksg1": 5,
+            "datacodewordsperblockg1": 98,
+            "blocksg2": 1,
+            "datacodewordsperblockg2": 99
+        },
+        "M": {
+            "datacodewords": 453,
+            "errorcodewords": 28,
+            "blocksg1": 7,
+            "datacodewordsperblockg1": 45,
+            "blocksg2": 3,
+            "datacodewordsperblockg2": 46
+        },
+        "Q": {
+            "datacodewords": 325,
+            "errorcodewords": 24,
+            "blocksg1": 15,
+            "datacodewordsperblockg1": 19,
+            "blocksg2": 2,
+            "datacodewordsperblockg2": 20
+        },
+        "H": {
+            "datacodewords": 253,
+            "errorcodewords": 30,
+            "blocksg1": 3,
+            "datacodewordsperblockg1": 15,
+            "blocksg2": 13,
+            "datacodewordsperblockg2": 16
+        }
+    },
+    "17": {
+        "L": {
+            "datacodewords": 647,
+            "errorcodewords": 28,
+            "blocksg1": 1,
+            "datacodewordsperblockg1": 107,
+            "blocksg2": 5,
+            "datacodewordsperblockg2": 108
+        },
+        "M": {
+            "datacodewords": 507,
+            "errorcodewords": 28,
+            "blocksg1": 10,
+            "datacodewordsperblockg1": 46,
+            "blocksg2": 1,
+            "datacodewordsperblockg2": 47
+        },
+        "Q": {
+            "datacodewords": 367,
+            "errorcodewords": 28,
+            "blocksg1": 1,
+            "datacodewordsperblockg1": 22,
+            "blocksg2": 15,
+            "datacodewordsperblockg2": 23
+        },
+        "H": {
+            "datacodewords": 283,
+            "errorcodewords": 28,
+            "blocksg1": 2,
+            "datacodewordsperblockg1": 14,
+            "blocksg2": 17,
+            "datacodewordsperblockg2": 15
+        }
+    },
+    "18": {
+        "L": {
+            "datacodewords": 721,
+            "errorcodewords": 30,
+            "blocksg1": 5,
+            "datacodewordsperblockg1": 120,
+            "blocksg2": 1,
+            "datacodewordsperblockg2": 121
+        },
+        "M": {
+            "datacodewords": 563,
+            "errorcodewords": 26,
+            "blocksg1": 9,
+            "datacodewordsperblockg1": 43,
+            "blocksg2": 4,
+            "datacodewordsperblockg2": 44
+        },
+        "Q": {
+            "datacodewords": 397,
+            "errorcodewords": 28,
+            "blocksg1": 17,
+            "datacodewordsperblockg1": 22,
+            "blocksg2": 1,
+            "datacodewordsperblockg2": 23
+        },
+        "H": {
+            "datacodewords": 313,
+            "errorcodewords": 28,
+            "blocksg1": 2,
+            "datacodewordsperblockg1": 14,
+            "blocksg2": 19,
+            "datacodewordsperblockg2": 15
+        }
+    },
+    "19": {
+        "L": {
+            "datacodewords": 795,
+            "errorcodewords": 28,
+            "blocksg1": 3,
+            "datacodewordsperblockg1": 113,
+            "blocksg2": 4,
+            "datacodewordsperblockg2": 114
+        },
+        "M": {
+            "datacodewords": 627,
+            "errorcodewords": 26,
+            "blocksg1": 3,
+            "datacodewordsperblockg1": 44,
+            "blocksg2": 11,
+            "datacodewordsperblockg2": 45
+        },
+        "Q": {
+            "datacodewords": 445,
+            "errorcodewords": 26,
+            "blocksg1": 17,
+            "datacodewordsperblockg1": 21,
+            "blocksg2": 4,
+            "datacodewordsperblockg2": 22
+        },
+        "H": {
+            "datacodewords": 341,
+            "errorcodewords": 26,
+            "blocksg1": 9,
+            "datacodewordsperblockg1": 13,
+            "blocksg2": 16,
+            "datacodewordsperblockg2": 14
+        }
+    },
+    "20": {
+        "L": {
+            "datacodewords": 861,
+            "errorcodewords": 28,
+            "blocksg1": 3,
+            "datacodewordsperblockg1": 107,
+            "blocksg2": 5,
+            "datacodewordsperblockg2": 108
+        },
+        "M": {
+            "datacodewords": 669,
+            "errorcodewords": 26,
+            "blocksg1": 3,
+            "datacodewordsperblockg1": 41,
+            "blocksg2": 13,
+            "datacodewordsperblockg2": 42
+        },
+        "Q": {
+            "datacodewords": 485,
+            "errorcodewords": 30,
+            "blocksg1": 15,
+            "datacodewordsperblockg1": 24,
+            "blocksg2": 5,
+            "datacodewordsperblockg2": 25
+        },
+        "H": {
+            "datacodewords": 385,
+            "errorcodewords": 28,
+            "blocksg1": 15,
+            "datacodewordsperblockg1": 15,
+            "blocksg2": 10,
+            "datacodewordsperblockg2": 16
+        }
+    },
+    "21": {
+        "L": {
+            "datacodewords": 932,
+            "errorcodewords": 28,
+            "blocksg1": 4,
+            "datacodewordsperblockg1": 116,
+            "blocksg2": 4,
+            "datacodewordsperblockg2": 117
+        },
+        "M": {
+            "datacodewords": 714,
+            "errorcodewords": 26,
+            "blocksg1": 17,
+            "datacodewordsperblockg1": 42,
+            "blocksg2": null,
+            "datacodewordsperblockg2": null
+        },
+        "Q": {
+            "datacodewords": 512,
+            "errorcodewords": 28,
+            "blocksg1": 17,
+            "datacodewordsperblockg1": 22,
+            "blocksg2": 6,
+            "datacodewordsperblockg2": 23
+        },
+        "H": {
+            "datacodewords": 406,
+            "errorcodewords": 30,
+            "blocksg1": 19,
+            "datacodewordsperblockg1": 16,
+            "blocksg2": 6,
+            "datacodewordsperblockg2": 17
+        }
+    },
+    "22": {
+        "L": {
+            "datacodewords": 1006,
+            "errorcodewords": 28,
+            "blocksg1": 2,
+            "datacodewordsperblockg1": 111,
+            "blocksg2": 7,
+            "datacodewordsperblockg2": 112
+        },
+        "M": {
+            "datacodewords": 782,
+            "errorcodewords": 28,
+            "blocksg1": 17,
+            "datacodewordsperblockg1": 46,
+            "blocksg2": null,
+            "datacodewordsperblockg2": null
+        },
+        "Q": {
+            "datacodewords": 568,
+            "errorcodewords": 30,
+            "blocksg1": 7,
+            "datacodewordsperblockg1": 24,
+            "blocksg2": 16,
+            "datacodewordsperblockg2": 25
+        },
+        "H": {
+            "datacodewords": 442,
+            "errorcodewords": 24,
+            "blocksg1": 34,
+            "datacodewordsperblockg1": 13,
+            "blocksg2": null,
+            "datacodewordsperblockg2": null
+        }
+    },
+    "23": {
+        "L": {
+            "datacodewords": 1094,
+            "errorcodewords": 30,
+            "blocksg1": 4,
+            "datacodewordsperblockg1": 121,
+            "blocksg2": 5,
+            "datacodewordsperblockg2": 122
+        },
+        "M": {
+            "datacodewords": 860,
+            "errorcodewords": 28,
+            "blocksg1": 4,
+            "datacodewordsperblockg1": 47,
+            "blocksg2": 14,
+            "datacodewordsperblockg2": 48
+        },
+        "Q": {
+            "datacodewords": 614,
+            "errorcodewords": 30,
+            "blocksg1": 11,
+            "datacodewordsperblockg1": 24,
+            "blocksg2": 14,
+            "datacodewordsperblockg2": 25
+        },
+        "H": {
+            "datacodewords": 464,
+            "errorcodewords": 30,
+            "blocksg1": 16,
+            "datacodewordsperblockg1": 15,
+            "blocksg2": 14,
+            "datacodewordsperblockg2": 16
+        }
+    },
+    "24": {
+        "L": {
+            "datacodewords": 1174,
+            "errorcodewords": 30,
+            "blocksg1": 6,
+            "datacodewordsperblockg1": 117,
+            "blocksg2": 4,
+            "datacodewordsperblockg2": 118
+        },
+        "M": {
+            "datacodewords": 914,
+            "errorcodewords": 28,
+            "blocksg1": 6,
+            "datacodewordsperblockg1": 45,
+            "blocksg2": 14,
+            "datacodewordsperblockg2": 46
+        },
+        "Q": {
+            "datacodewords": 664,
+            "errorcodewords": 30,
+            "blocksg1": 11,
+            "datacodewordsperblockg1": 24,
+            "blocksg2": 16,
+            "datacodewordsperblockg2": 25
+        },
+        "H": {
+            "datacodewords": 514,
+            "errorcodewords": 30,
+            "blocksg1": 30,
+            "datacodewordsperblockg1": 16,
+            "blocksg2": 2,
+            "datacodewordsperblockg2": 17
+        }
+    },
+    "25": {
+        "L": {
+            "datacodewords": 1276,
+            "errorcodewords": 26,
+            "blocksg1": 8,
+            "datacodewordsperblockg1": 106,
+            "blocksg2": 4,
+            "datacodewordsperblockg2": 107
+        },
+        "M": {
+            "datacodewords": 1000,
+            "errorcodewords": 28,
+            "blocksg1": 8,
+            "datacodewordsperblockg1": 47,
+            "blocksg2": 13,
+            "datacodewordsperblockg2": 48
+        },
+        "Q": {
+            "datacodewords": 718,
+            "errorcodewords": 30,
+            "blocksg1": 7,
+            "datacodewordsperblockg1": 24,
+            "blocksg2": 22,
+            "datacodewordsperblockg2": 25
+        },
+        "H": {
+            "datacodewords": 538,
+            "errorcodewords": 30,
+            "blocksg1": 22,
+            "datacodewordsperblockg1": 15,
+            "blocksg2": 13,
+            "datacodewordsperblockg2": 16
+        }
+    },
+    "26": {
+        "L": {
+            "datacodewords": 1370,
+            "errorcodewords": 28,
+            "blocksg1": 10,
+            "datacodewordsperblockg1": 114,
+            "blocksg2": 2,
+            "datacodewordsperblockg2": 115
+        },
+        "M": {
+            "datacodewords": 1062,
+            "errorcodewords": 28,
+            "blocksg1": 19,
+            "datacodewordsperblockg1": 46,
+            "blocksg2": 4,
+            "datacodewordsperblockg2": 47
+        },
+        "Q": {
+            "datacodewords": 754,
+            "errorcodewords": 28,
+            "blocksg1": 28,
+            "datacodewordsperblockg1": 22,
+            "blocksg2": 6,
+            "datacodewordsperblockg2": 23
+        },
+        "H": {
+            "datacodewords": 596,
+            "errorcodewords": 30,
+            "blocksg1": 33,
+            "datacodewordsperblockg1": 16,
+            "blocksg2": 4,
+            "datacodewordsperblockg2": 17
+        }
+    },
+    "27": {
+        "L": {
+            "datacodewords": 1468,
+            "errorcodewords": 30,
+            "blocksg1": 8,
+            "datacodewordsperblockg1": 122,
+            "blocksg2": 4,
+            "datacodewordsperblockg2": 123
+        },
+        "M": {
+            "datacodewords": 1128,
+            "errorcodewords": 28,
+            "blocksg1": 22,
+            "datacodewordsperblockg1": 45,
+            "blocksg2": 3,
+            "datacodewordsperblockg2": 46
+        },
+        "Q": {
+            "datacodewords": 808,
+            "errorcodewords": 30,
+            "blocksg1": 8,
+            "datacodewordsperblockg1": 23,
+            "blocksg2": 26,
+            "datacodewordsperblockg2": 24
+        },
+        "H": {
+            "datacodewords": 628,
+            "errorcodewords": 30,
+            "blocksg1": 12,
+            "datacodewordsperblockg1": 15,
+            "blocksg2": 28,
+            "datacodewordsperblockg2": 16
+        }
+    },
+    "28": {
+        "L": {
+            "datacodewords": 1531,
+            "errorcodewords": 30,
+            "blocksg1": 3,
+            "datacodewordsperblockg1": 117,
+            "blocksg2": 10,
+            "datacodewordsperblockg2": 118
+        },
+        "M": {
+            "datacodewords": 1193,
+            "errorcodewords": 28,
+            "blocksg1": 3,
+            "datacodewordsperblockg1": 45,
+            "blocksg2": 23,
+            "datacodewordsperblockg2": 46
+        },
+        "Q": {
+            "datacodewords": 871,
+            "errorcodewords": 30,
+            "blocksg1": 4,
+            "datacodewordsperblockg1": 24,
+            "blocksg2": 31,
+            "datacodewordsperblockg2": 25
+        },
+        "H": {
+            "datacodewords": 661,
+            "errorcodewords": 30,
+            "blocksg1": 11,
+            "datacodewordsperblockg1": 15,
+            "blocksg2": 31,
+            "datacodewordsperblockg2": 16
+        }
+    },
+    "29": {
+        "L": {
+            "datacodewords": 1631,
+            "errorcodewords": 30,
+            "blocksg1": 7,
+            "datacodewordsperblockg1": 116,
+            "blocksg2": 7,
+            "datacodewordsperblockg2": 117
+        },
+        "M": {
+            "datacodewords": 1267,
+            "errorcodewords": 28,
+            "blocksg1": 21,
+            "datacodewordsperblockg1": 45,
+            "blocksg2": 7,
+            "datacodewordsperblockg2": 46
+        },
+        "Q": {
+            "datacodewords": 911,
+            "errorcodewords": 30,
+            "blocksg1": 1,
+            "datacodewordsperblockg1": 23,
+            "blocksg2": 37,
+            "datacodewordsperblockg2": 24
+        },
+        "H": {
+            "datacodewords": 701,
+            "errorcodewords": 30,
+            "blocksg1": 19,
+            "datacodewordsperblockg1": 15,
+            "blocksg2": 26,
+            "datacodewordsperblockg2": 16
+        }
+    },
+    "30": {
+        "L": {
+            "datacodewords": 1735,
+            "errorcodewords": 30,
+            "blocksg1": 5,
+            "datacodewordsperblockg1": 115,
+            "blocksg2": 10,
+            "datacodewordsperblockg2": 116
+        },
+        "M": {
+            "datacodewords": 1373,
+            "errorcodewords": 28,
+            "blocksg1": 19,
+            "datacodewordsperblockg1": 47,
+            "blocksg2": 10,
+            "datacodewordsperblockg2": 48
+        },
+        "Q": {
+            "datacodewords": 985,
+            "errorcodewords": 30,
+            "blocksg1": 15,
+            "datacodewordsperblockg1": 24,
+            "blocksg2": 25,
+            "datacodewordsperblockg2": 25
+        },
+        "H": {
+            "datacodewords": 745,
+            "errorcodewords": 30,
+            "blocksg1": 23,
+            "datacodewordsperblockg1": 15,
+            "blocksg2": 25,
+            "datacodewordsperblockg2": 16
+        }
+    },
+    "31": {
+        "L": {
+            "datacodewords": 1843,
+            "errorcodewords": 30,
+            "blocksg1": 13,
+            "datacodewordsperblockg1": 115,
+            "blocksg2": 3,
+            "datacodewordsperblockg2": 116
+        },
+        "M": {
+            "datacodewords": 1455,
+            "errorcodewords": 28,
+            "blocksg1": 2,
+            "datacodewordsperblockg1": 46,
+            "blocksg2": 29,
+            "datacodewordsperblockg2": 47
+        },
+        "Q": {
+            "datacodewords": 1033,
+            "errorcodewords": 30,
+            "blocksg1": 42,
+            "datacodewordsperblockg1": 24,
+            "blocksg2": 1,
+            "datacodewordsperblockg2": 25
+        },
+        "H": {
+            "datacodewords": 793,
+            "errorcodewords": 30,
+            "blocksg1": 23,
+            "datacodewordsperblockg1": 15,
+            "blocksg2": 28,
+            "datacodewordsperblockg2": 16
+        }
+    },
+    "32": {
+        "L": {
+            "datacodewords": 1955,
+            "errorcodewords": 30,
+            "blocksg1": 17,
+            "datacodewordsperblockg1": 115,
+            "blocksg2": null,
+            "datacodewordsperblockg2": null
+        },
+        "M": {
+            "datacodewords": 1541,
+            "errorcodewords": 28,
+            "blocksg1": 10,
+            "datacodewordsperblockg1": 46,
+            "blocksg2": 23,
+            "datacodewordsperblockg2": 47
+        },
+        "Q": {
+            "datacodewords": 1115,
+            "errorcodewords": 30,
+            "blocksg1": 10,
+            "datacodewordsperblockg1": 24,
+            "blocksg2": 35,
+            "datacodewordsperblockg2": 25
+        },
+        "H": {
+            "datacodewords": 845,
+            "errorcodewords": 30,
+            "blocksg1": 19,
+            "datacodewordsperblockg1": 15,
+            "blocksg2": 35,
+            "datacodewordsperblockg2": 16
+        }
+    },
+    "33": {
+        "L": {
+            "datacodewords": 2071,
+            "errorcodewords": 30,
+            "blocksg1": 17,
+            "datacodewordsperblockg1": 115,
+            "blocksg2": 1,
+            "datacodewordsperblockg2": 116
+        },
+        "M": {
+            "datacodewords": 1631,
+            "errorcodewords": 28,
+            "blocksg1": 14,
+            "datacodewordsperblockg1": 46,
+            "blocksg2": 21,
+            "datacodewordsperblockg2": 47
+        },
+        "Q": {
+            "datacodewords": 1171,
+            "errorcodewords": 30,
+            "blocksg1": 29,
+            "datacodewordsperblockg1": 24,
+            "blocksg2": 19,
+            "datacodewordsperblockg2": 25
+        },
+        "H": {
+            "datacodewords": 901,
+            "errorcodewords": 30,
+            "blocksg1": 11,
+            "datacodewordsperblockg1": 15,
+            "blocksg2": 46,
+            "datacodewordsperblockg2": 16
+        }
+    },
+    "34": {
+        "L": {
+            "datacodewords": 2191,
+            "errorcodewords": 30,
+            "blocksg1": 13,
+            "datacodewordsperblockg1": 115,
+            "blocksg2": 6,
+            "datacodewordsperblockg2": 116
+        },
+        "M": {
+            "datacodewords": 1725,
+            "errorcodewords": 28,
+            "blocksg1": 14,
+            "datacodewordsperblockg1": 46,
+            "blocksg2": 23,
+            "datacodewordsperblockg2": 47
+        },
+        "Q": {
+            "datacodewords": 1231,
+            "errorcodewords": 30,
+            "blocksg1": 44,
+            "datacodewordsperblockg1": 24,
+            "blocksg2": 7,
+            "datacodewordsperblockg2": 25
+        },
+        "H": {
+            "datacodewords": 961,
+            "errorcodewords": 30,
+            "blocksg1": 59,
+            "datacodewordsperblockg1": 16,
+            "blocksg2": 1,
+            "datacodewordsperblockg2": 17
+        }
+    },
+    "35": {
+        "L": {
+            "datacodewords": 2306,
+            "errorcodewords": 30,
+            "blocksg1": 12,
+            "datacodewordsperblockg1": 121,
+            "blocksg2": 7,
+            "datacodewordsperblockg2": 122
+        },
+        "M": {
+            "datacodewords": 1812,
+            "errorcodewords": 28,
+            "blocksg1": 12,
+            "datacodewordsperblockg1": 47,
+            "blocksg2": 26,
+            "datacodewordsperblockg2": 48
+        },
+        "Q": {
+            "datacodewords": 1286,
+            "errorcodewords": 30,
+            "blocksg1": 39,
+            "datacodewordsperblockg1": 24,
+            "blocksg2": 14,
+            "datacodewordsperblockg2": 25
+        },
+        "H": {
+            "datacodewords": 986,
+            "errorcodewords": 30,
+            "blocksg1": 22,
+            "datacodewordsperblockg1": 15,
+            "blocksg2": 41,
+            "datacodewordsperblockg2": 16
+        }
+    },
+    "36": {
+        "L": {
+            "datacodewords": 2434,
+            "errorcodewords": 30,
+            "blocksg1": 6,
+            "datacodewordsperblockg1": 121,
+            "blocksg2": 14,
+            "datacodewordsperblockg2": 122
+        },
+        "M": {
+            "datacodewords": 1914,
+            "errorcodewords": 28,
+            "blocksg1": 6,
+            "datacodewordsperblockg1": 47,
+            "blocksg2": 34,
+            "datacodewordsperblockg2": 48
+        },
+        "Q": {
+            "datacodewords": 1354,
+            "errorcodewords": 30,
+            "blocksg1": 46,
+            "datacodewordsperblockg1": 24,
+            "blocksg2": 10,
+            "datacodewordsperblockg2": 25
+        },
+        "H": {
+            "datacodewords": 1054,
+            "errorcodewords": 30,
+            "blocksg1": 2,
+            "datacodewordsperblockg1": 15,
+            "blocksg2": 64,
+            "datacodewordsperblockg2": 16
+        }
+    },
+    "37": {
+        "L": {
+            "datacodewords": 2566,
+            "errorcodewords": 30,
+            "blocksg1": 17,
+            "datacodewordsperblockg1": 122,
+            "blocksg2": 4,
+            "datacodewordsperblockg2": 123
+        },
+        "M": {
+            "datacodewords": 1992,
+            "errorcodewords": 28,
+            "blocksg1": 29,
+            "datacodewordsperblockg1": 46,
+            "blocksg2": 14,
+            "datacodewordsperblockg2": 47
+        },
+        "Q": {
+            "datacodewords": 1426,
+            "errorcodewords": 30,
+            "blocksg1": 49,
+            "datacodewordsperblockg1": 24,
+            "blocksg2": 10,
+            "datacodewordsperblockg2": 25
+        },
+        "H": {
+            "datacodewords": 1096,
+            "errorcodewords": 30,
+            "blocksg1": 24,
+            "datacodewordsperblockg1": 15,
+            "blocksg2": 46,
+            "datacodewordsperblockg2": 16
+        }
+    },
+    "38": {
+        "L": {
+            "datacodewords": 2702,
+            "errorcodewords": 30,
+            "blocksg1": 4,
+            "datacodewordsperblockg1": 122,
+            "blocksg2": 18,
+            "datacodewordsperblockg2": 123
+        },
+        "M": {
+            "datacodewords": 2102,
+            "errorcodewords": 28,
+            "blocksg1": 13,
+            "datacodewordsperblockg1": 46,
+            "blocksg2": 32,
+            "datacodewordsperblockg2": 47
+        },
+        "Q": {
+            "datacodewords": 1502,
+            "errorcodewords": 30,
+            "blocksg1": 48,
+            "datacodewordsperblockg1": 24,
+            "blocksg2": 14,
+            "datacodewordsperblockg2": 25
+        },
+        "H": {
+            "datacodewords": 1142,
+            "errorcodewords": 30,
+            "blocksg1": 42,
+            "datacodewordsperblockg1": 15,
+            "blocksg2": 32,
+            "datacodewordsperblockg2": 16
+        }
+    },
+    "39": {
+        "L": {
+            "datacodewords": 2812,
+            "errorcodewords": 30,
+            "blocksg1": 20,
+            "datacodewordsperblockg1": 117,
+            "blocksg2": 4,
+            "datacodewordsperblockg2": 118
+        },
+        "M": {
+            "datacodewords": 2216,
+            "errorcodewords": 28,
+            "blocksg1": 40,
+            "datacodewordsperblockg1": 47,
+            "blocksg2": 7,
+            "datacodewordsperblockg2": 48
+        },
+        "Q": {
+            "datacodewords": 1582,
+            "errorcodewords": 30,
+            "blocksg1": 43,
+            "datacodewordsperblockg1": 24,
+            "blocksg2": 22,
+            "datacodewordsperblockg2": 25
+        },
+        "H": {
+            "datacodewords": 1222,
+            "errorcodewords": 30,
+            "blocksg1": 10,
+            "datacodewordsperblockg1": 15,
+            "blocksg2": 67,
+            "datacodewordsperblockg2": 16
+        }
+    },
+    "40": {
+        "L": {
+            "datacodewords": 2956,
+            "errorcodewords": 30,
+            "blocksg1": 19,
+            "datacodewordsperblockg1": 118,
+            "blocksg2": 6,
+            "datacodewordsperblockg2": 119
+        },
+        "M": {
+            "datacodewords": 2334,
+            "errorcodewords": 28,
+            "blocksg1": 18,
+            "datacodewordsperblockg1": 47,
+            "blocksg2": 31,
+            "datacodewordsperblockg2": 48
+        },
+        "Q": {
+            "datacodewords": 1666,
+            "errorcodewords": 30,
+            "blocksg1": 34,
+            "datacodewordsperblockg1": 24,
+            "blocksg2": 34,
+            "datacodewordsperblockg2": 25
+        },
+        "H": {
+            "datacodewords": 1276,
+            "errorcodewords": 30,
+            "blocksg1": 20,
+            "datacodewordsperblockg1": 15,
+            "blocksg2": 61,
+            "datacodewordsperblockg2": 16
+        }
+    }
+}

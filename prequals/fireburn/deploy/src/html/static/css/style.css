@@ -1,0 +1,8 @@
+body,html{
+  margin:0;
+  width:100%;
+}
+html, body {
+    background-color: #154360 !important;
+    color: white !important;
+}

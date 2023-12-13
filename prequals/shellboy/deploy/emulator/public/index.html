@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="/js/zlib.min.js"></script>
+    <script src="/js/index.js"></script>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <div id="console">
+        <img id="frame" src="/img/Gameboy.svg"/>
+        <canvas id="screen" width="160" height="144"></canvas>
+        <div id="up" onclick="joypad('ArrowUp');"></div>
+        <div id="down" onclick="joypad('ArrowDown');"></div>
+        <div id="left" onclick="joypad('ArrowLeft');"></div>
+        <div id="right" onclick="joypad('ArrowRight');"></div>
+        <div id="A" onclick="joypad('a');"></div>
+        <div id="B" onclick="joypad('b');"></div>
+        <div id="select" onclick="joypad('o');"></div>
+        <div id="start" onclick="joypad('p');"></div>
+        <div id="reset" onclick="joypad('r');"></div>
+    </div>
+    <div id="info">
+        <h1 class="block">ShellBoy™ - Maze Edition</h1>
+        <div class="block">
+            <p>
+                Help ShellBoy escape the maze ! Tell him how to get out by pointing him the right direction.
+            </p>
+        </div>
+        <div id="guide">
+            <div class="block">
+                <h3>Add an instruction</h3>
+                <p>
+                    Press the <span style="color: red">A</span> key to add an instruction, then press <span style="color: red">any directional key</span>. This will add the instruction to the instruction list. You can add up to 16 instructions.
+                </p>
+            </div>
+            <div class="block">
+                <h3>Repeat an instruction</h3>
+                <p>
+                    Press the <span style="color: red">UP</span> or <span style="color: red">DOWN</span> arrow to indicate how many times the selected instruction should be repeated.
+                </p>
+            </div>
+            <div class="block">
+                <h3>Navigate in the instruction list</h3>
+                <p>
+                    Press the <span style="color: red">LEFT</span> or <span style="color: red">RIGHT</span> arrow to move the selection cursor through the instruction list.
+                </p>
+            </div>
+            <div class="block">
+                <h3>Delete an instruction</h3>
+                <p>
+                    Position the cursor on the instruction to be deleted, then press <span style="color: red">B</span>. The instruction will be removed.
+                </p>
+            </div>
+            <div class="block">
+                <h3>Move / Merge two instructions</h3>
+                <p>
+                    Position the cursor on the instruction to be moved, then press <span style="color: red">SELECT</span>. Move the cursor to the desired position and press <span style="color: red">SELECT</span> again. If the two selected instructions are identical, they will be merged. Otherwise, their positions will be switched.
+                </p>
+            </div>
+            <div class="block">
+                <h3>Launch ShellBoy !</h3>
+                <p>
+                    Press <span style="color: red">START</span> to tell ShellBoy to follow your instructions.
+                </p>
+            </div>
+            <div class="block">
+                <h3>Automate !</h3>
+                <p>
+                    We provide you <a href="/scripts/automate.py">this script</a> to help you develop your own IA !
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

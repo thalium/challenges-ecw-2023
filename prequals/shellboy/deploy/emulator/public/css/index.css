@@ -1,0 +1,161 @@
+@font-face {
+    font-family: "GameBoy";
+    src: url("/fonts/GameBoy.ttf");
+}
+
+body {
+    background-color: #181a1b;
+    font-family: "GameBoy", Arial, sans-serif;
+}
+
+#frame {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 600px;
+    z-index: 1;
+}
+
+#screen {
+    position: absolute;
+    top: 155px;
+    left: 160px;
+    width: 320px;
+    height: 270px;
+    z-index: 2;
+
+    image-rendering: optimizeSpeed;             /* Older versions of FF */
+    image-rendering: -moz-crisp-edges;          /* FF 6.0+ */
+    image-rendering: -webkit-optimize-contrast; /* Webkit (non standard naming) */
+    image-rendering: -o-crisp-edges;            /* OS X & Windows Opera (12.02+) */
+    image-rendering: crisp-edges;               /* Possible future browsers. */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE (non standard naming) */
+}
+
+#info {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 20px;
+    left: 620px;
+}
+
+#info h1 {
+    text-align: center;
+    font-size: 38px;
+    padding: 30px;
+}
+
+#info h3 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#info .block {
+    display: block;
+    width: 100%;
+    box-shadow: 3px 3px 2px 1px black;
+    background-color: #262a2c;
+    color: #759f24;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.block p {
+    color: white;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 12pt;
+}
+
+#guide {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 20px;
+
+    /* display: table */
+}
+
+#guide .block {
+    flex-grow: 1;
+    width: 40%;
+}
+
+#console div {
+    position: absolute;
+    z-index: 3;
+}
+
+#up {
+    width: 51px;
+    height: 45px;
+
+    top: 590px;
+    left: 135px;
+}
+
+#down {
+    width: 51px;
+    height: 45px;
+
+    top: 685px;
+    left: 135px;
+}
+
+#left {
+    width: 45px;
+    height: 52px;
+
+    top: 635px;
+    left: 90px;
+}
+
+#right {
+    width: 45px;
+    height: 52px;
+
+    top: 635px;
+    left: 185px;
+}
+
+#A {
+    width: 80px;
+    height: 80px;
+
+    top: 577px;
+    left: 497px;
+}
+
+#B {
+    width: 80px;
+    height: 80px;
+
+    top: 630px;
+    left: 394px;
+}
+
+#start {
+    width: 80px;
+    height: 60px;
+    
+    top: 760px;
+    left: 300px;
+}
+
+#select {
+    width: 80px;
+    height: 60px;
+    
+    top: 760px;
+    left: 205px;
+}
+
+#reset {
+    width: 115px;
+    height: 40px;
+    
+    top: 35px;
+    left: 100px;
+}
