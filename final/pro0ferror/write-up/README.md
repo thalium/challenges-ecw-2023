@@ -49,11 +49,11 @@ There is an [excellent website](https://www.thonky.com/qr-code-tutorial/) that r
 
 When looking at the QR Code `paper.png`, we notice that there are some **grey pixels** around certain corners. These grey pixels are suspicious.
 
-![grey-pixels-corner](/write-up/assets/grey-pixels-corner.png)
+![grey-pixels-corner](assets/grey-pixels-corner.png)
 
 Based on the format information diagram below, they seem to indicate the **mask pattern**.
 
-![format-information](/write-up/assets/format-information.png)
+![format-information](assets/format-information.png)
 
 The mask pattern indicator is represented on **3 bits** for the 8 different masks patterns, which makes sense.
 
@@ -89,7 +89,7 @@ As we have seen earlier, there are **8 different patterns** for QR Codes, but ou
 According to the description, we got a **14/20** on this paper.
 Based on the `grading scale`, this should be the mask applied to our "paper":
 
-![grading-scale](./assets/grading-scale.png)
+![grading-scale](assets/grading-scale.png)
 
 Of course, it is not part of the 8 known mask patterns.
 
@@ -136,15 +136,15 @@ Fortunately, QR Codes before version 7 only have **one alignment pattern** and *
 
 Based on the above diagram, we will generate a 41x41 layer for our fixed patterns that should **never be masked**.
 
-![mask-protect](/write-up/assets/mask-protect.png)
+![mask-protect](assets/mask-protect.png)
 
 Make sure to scale it to the same size as our QR, and add borders to simplify the operations between the images.
 
-There is a simple [Python script](/write-up/scripts/mask.py) that will generate the custom mask pattern, and XOR our QR Code with the mask while making sure to keep fixed pattern unmasked.
+There is a simple [Python script](scripts/mask.py) that will generate the custom mask pattern, and XOR our QR Code with the mask while making sure to keep fixed pattern unmasked.
 
 The generated custom mask looks like this :
 
-![custom-mask](/write-up/assets/custom-mask.png)
+![custom-mask](assets/custom-mask.png)
 
 After applying (**=removing**) the mask with this script, we get the **"raw" QR Code** :
 
@@ -161,11 +161,11 @@ We simply create a `New project -> Import from Image`, select the raw QR Code, a
 
 This is what it looks like after applying mask n°4 :
 
-![raw-qr-masked](/write-up/assets/raw-qr-masked.png)
+![raw-qr-masked](assets/raw-qr-masked.png)
 
 Now we will use the `Tools -> Extract Information` option, and we finally get some... non-sense string ?
 
-![decoded-string-1](/write-up/assets/decoded-string-1.png)
+![decoded-string-1](assets/decoded-string-1.png)
 
 ```text
 Final Decoded string : RUNFe2ZsM2dfYnV0XzR1dG9jb3JyZWNUM2Q/a
@@ -209,7 +209,7 @@ For a **Version 6** QR Code using **High** Error Correction Code, we can see tha
 
 Grey out approximately 102 error codewords :
 
-![no-error-correction](/write-up/assets/no-error-correction.png)
+![no-error-correction](assets/no-error-correction.png)
 
 _NOTE : You don't need to grey out all 102 error codewords for the correction to be removed. Erasing ~30% of the total error codewords should be enough to neglect error correction._
 
@@ -287,7 +287,7 @@ The protocol of interleaving depends on the QR Code version and its Error Correc
 
 This is an example of interleaving for a version 3 QR Code :
 
-![codewords-interleaving](/write-up/assets/codewords-interleaving.png)
+![codewords-interleaving](assets/codewords-interleaving.png)
 
 The expected order should be `D1, D2, D3, ..., D26`.
 
@@ -303,11 +303,11 @@ Let's recap :
 - Error Correction Level : H(igh)
 - Codeblocks : {from QRazyBox}
 
-The [following script](./scripts/eof.py) will take a **list of codewords** extracted from QRazyBox, the QR Code **version** and **EC level**, and will extract the hidden message based on the correct interleaving protocol.
+The [following script](scripts/eof.py) will take a **list of codewords** extracted from QRazyBox, the QR Code **version** and **EC level**, and will extract the hidden message based on the correct interleaving protocol.
 
 Codewords can be found in the `Data blocks` section of the `Tools -> Extract QR Information` panel.
 
-![codewords-datablocks](/write-up/assets/codewords-datablocks.png)
+![codewords-datablocks](assets/codewords-datablocks.png)
 
 Change the parameters if necessary :
 
@@ -377,7 +377,7 @@ Import the given QR Code with `New Project -> Import from Image`.
 
 After import, click on any blue pixel in the top left corner format bits, this should display mask n°5.
 
-![mask-5-applied](/write-up/assets/mask-5-applied.png)
+![mask-5-applied](assets/mask-5-applied.png)
 
 Finally, click on `Tools -> Extract QR Information`.
 
@@ -422,11 +422,11 @@ $ echo -n RUNXe2ZsNGdfYnV0X25vdF9jb21wbGVUM19v | base64 -d
 
 To reveal the hidden message stored in padding we will use the `Padding Bits Recovery` tool from QRazyBox.
 
-![padding-bits-recovery-meme](/write-up/assets/padding-bits-recovery-meme.jpg)
+![padding-bits-recovery-meme](assets/padding-bits-recovery-meme.jpg)
 
 In QRazyBox click on `Tools -> Padding Bits Recovery`.
 
-![padding-bits-recovery](/write-up/assets/padding-bits-recovery.png)
+![padding-bits-recovery](assets/padding-bits-recovery.png)
 
 This feature is usually used to repair missing or corrupted padding bytes, so that QR readers can correctly scan the QR.
 
@@ -434,7 +434,7 @@ However, the trick is that `QRazyBox` will show you the padding bits **before** 
 
 This means we only have to convert the binary stream **before recovery** to ASCII to reveal the hidden message.
 
-![padding-bits-recovery-panel.png](/write-up/assets/padding-bits-recovery-panel.png)
+![padding-bits-recovery-panel.png](assets/padding-bits-recovery-panel.png)
 
 ```text
 Bits before recovery :
